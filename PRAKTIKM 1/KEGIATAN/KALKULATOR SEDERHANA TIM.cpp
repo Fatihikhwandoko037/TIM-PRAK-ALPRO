@@ -1,3 +1,4 @@
+//2100018048-MUAMMAR GALIH SAPUTRA 2100018037-FATIH IKHWANDOKO
 #include <iostream>
 #include <conio.h>
 #include <cstdlib>
@@ -25,13 +26,12 @@ int main (int argc, char**argv)
                                 string Pembagian ="(4) Pembagian (/)";
                                 cout<<Pembagian<<endl<<endl;
                                
-                                cout<<"Masukan Angka Pertama      = ";
-                                cin>>x;
-                                cout<<"Masukan Angka Kedua        = ";
-                                cin>>y;
+                                cout<<"Masukan Angka Pertama      = ";cin>>x;
+                                cout<<"Masukan Angka Kedua        = ";cin>>y;
+                               
                                
                                 int z;
-                                cout<<"Pilih Operator Perhitungan = ";
+                                cout<<"Silakan Pilih Operator Perhitungan = ";
                                 cin>>z;
                                
                                 if (z==1)
@@ -57,7 +57,6 @@ int main (int argc, char**argv)
                                 cout<<"========================================================"<<endl;
                                 cout<<"Coba Lagi [1]"<<endl;
                                 cout<<"Keluar    [2]"<<endl;
-                                cout<<"========================================================"<<endl;
                                 cout<<"Pilih : "; cin>>pilih;
                                 if (pilih==1)
                                 {
@@ -71,6 +70,6 @@ int main (int argc, char**argv)
                                     cout<<"\t\t\t\t========================================================"<<endl;
                                     system("pause");
                                 }
-                                return 0;
+                               
 }
 
